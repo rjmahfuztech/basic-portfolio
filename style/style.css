@@ -3,6 +3,9 @@ body {
   background-color: rgb(15, 14, 14);
 }
 /* Header Style  */
+.logo {
+  width: 50px;
+}
 #resume:hover {
   background-color: rgb(133, 96, 31) !important;
   color: white !important;
