@@ -1,4 +1,12 @@
+/* Shared Style  */
+body {
+  background-color: rgb(15, 14, 14);
+}
 /* Header Style  */
+#resume:hover {
+  background-color: rgb(133, 96, 31) !important;
+  color: white !important;
+}
 .row h1 {
   font-size: 60px;
 }
@@ -20,7 +28,36 @@
   text-decoration: none;
 }
 .site-link > span:hover {
-  background-color: rgb(45, 49, 51);
+  background-color: rgb(18, 19, 20);
   color: antiquewhite;
   cursor: pointer;
+}
+/* Skill Style  */
+.about h1 {
+  max-width: 20rem;
+  font-size: 3.5rem;
+  border-bottom: 5px solid #ffbd39;
+  border-left: 5px solid #ffbd39;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.about li {
+  list-style: none;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.about .title {
+  font-weight: 500;
+}
+.about p,
+.info {
+  color: gray;
+}
+/* Footer Style  */
+footer {
+  background-color: rgb(24, 23, 23);
+}
+footer a {
+  color: white;
+  transition: 0.4s;
 }

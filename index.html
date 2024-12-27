@@ -21,11 +21,11 @@
     ></script>
     <link rel="stylesheet" href="style/style.css" />
   </head>
-  <body class="container bg-dark text-white">
-    <header>
+  <body class="text-white">
+    <header id="#" class="container">
       <nav class="navbar navbar-expand-lg navbar-dark pt-4 pb-4">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Mahfuz</a>
+          <a class="navbar-brand fs-3" href="#">Mahfuz</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,19 +40,48 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active fs-5 me-md-3 me-l-3 me-lx-3"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Portfolio</a>
+                <a
+                  class="nav-link active fs-5 me-md-3 me-l-3 me-lx-3"
+                  href="#portfolio"
+                  >Portfolio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Skill</a>
+                <a
+                  class="nav-link active fs-5 me-md-3 me-l-3 me-lx-3"
+                  href="#skill"
+                  >Skill</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">About</a>
+                <a
+                  class="nav-link active fs-5 me-md-3 me-l-3 me-lx-3"
+                  href="#about"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
+                <a
+                  class="nav-link active fs-5 me-md-3 me-l-3 me-lx-3"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  id="resume"
+                  class="nav-link active fs-5 me-md-3 me-l-3 me-lx-3 bg-warning text-dark rounded"
+                  href="//drive.google.com/u/0/uc?id=1GC8u-okBprnWivRCrDoteSEpnl91a-Ge&export=download"
+                  >Resume <i class="fa-solid fa-download"></i
+                ></a>
               </li>
             </ul>
           </div>
@@ -90,7 +119,9 @@
                 ><i class="fa-brands fa-x-twitter"></i
               ></a>
             </div>
-            <button class="btn btn-warning">Contact Me</button>
+            <a href="#contact"
+              ><button class="btn btn-warning">Contact Me</button></a
+            >
           </div>
         </div>
         <div class="col col-md-5 d-flex justify-content-center mt-4">
@@ -98,8 +129,8 @@
         </div>
       </section>
     </header>
-    <main>
-      <section class="mt-5 pb-md-4 portfolio">
+    <main class="container">
+      <section id="portfolio" class="mt-5 pb-md-4 portfolio">
         <h1 class="w-50 text-center border-bottom m-auto mb-2 mb-md-5">
           My Portfolio
         </h1>
@@ -279,7 +310,7 @@
           </div>
         </div>
       </section>
-      <section class="mt-5 pb-md-4">
+      <section id="skill" class="mt-5 pb-md-4">
         <h1 class="w-50 text-center border-bottom m-auto mb-2 mb-md-5">
           My Skills And Education
         </h1>
@@ -323,7 +354,43 @@
           </div>
         </div>
       </section>
-      <section class="mt-5 pb-md-4 w-md-75 m-auto">
+      <section id="about" class="about row mt-5 pb-md-4 align-items-center">
+        <div class="col col-md-5 d-flex justify-content-center mt-4">
+          <img class="profile-img" src="images/profile.png" alt="" />
+        </div>
+        <div class="col col-md-7">
+          <h1>About Me</h1>
+          <p>
+            Hi there, this is Mahfuz. Always love to do programming and try to
+            learn new thing about programming. I count myself among the
+            hardworking person. My goal is to become a world-class web developer
+            and to accept the challenge of developing a project.
+          </p>
+          <div class="d-flex gap-4">
+            <div class="title">
+              <li>Name:</li>
+              <li>Date of birth:</li>
+              <li>Address:</li>
+              <li>Zip code:</li>
+              <li>Email:</li>
+            </div>
+            <div class="info">
+              <li>Mahfuz Islam</li>
+              <li>January 1, 2005</li>
+              <li>Airport Road, Rajshahi</li>
+              <li>6210</li>
+              <li>rjmahfuz.islam@gmail.com</li>
+            </div>
+          </div>
+          <a
+            id="resume"
+            class="nav-link mt-3 d-inline-block fs-5 me-md-3 me-l-3 me-lx-3 bg-warning text-dark rounded"
+            href="//drive.google.com/u/0/uc?id=1GC8u-okBprnWivRCrDoteSEpnl91a-Ge&export=download"
+            >Resume <i class="fa-solid fa-download"></i
+          ></a>
+        </div>
+      </section>
+      <section id="contact" class="mt-5 pb-md-4 w-md-75 m-auto">
         <h1 class="w-50 text-center border-bottom m-auto mb-4 mb-md-5">
           Contact Me
         </h1>
@@ -358,5 +425,29 @@
         </form>
       </section>
     </main>
+    <footer class="text-center mt-5 p-5">
+      <div class="container">
+        <div class="d-flex justify-content-center gap-3 fs-1 mb-3">
+          <a
+            href="https://www.facebook.com/profile.php?id=100025242424389"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://github.com/rjmahfuztech" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/mahfuz-islam" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://x.com/MahfuzI87236451" target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </div>
+        <p class="fs-5">
+          Copyright © 2024 by <strong>Mokhlasur Rahman</strong>. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
