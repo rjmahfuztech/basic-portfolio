@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body class="text-white">
-    <header id="#" class="container">
+    <header id="home" class="container">
       <nav class="navbar navbar-expand-lg navbar-dark pt-4 pb-4">
         <div class="container-fluid">
           <a class="navbar-brand fs-3" href="#">Mahfuz</a>
@@ -43,7 +43,7 @@
                 <a
                   class="nav-link active fs-5 me-md-3 me-l-3 me-lx-3"
                   aria-current="page"
-                  href="#"
+                  href="#home"
                   >Home</a
                 >
               </li>
@@ -78,7 +78,7 @@
               <li class="nav-item">
                 <a
                   id="resume"
-                  class="nav-link active fs-5 me-md-3 me-l-3 me-lx-3 bg-warning text-dark rounded"
+                  class="nav-link d-inline-block p-2 active fs-5 me-md-3 me-l-3 me-lx-3 bg-warning text-dark rounded"
                   href="//drive.google.com/u/0/uc?id=1GC8u-okBprnWivRCrDoteSEpnl91a-Ge&export=download"
                   >Resume <i class="fa-solid fa-download"></i
                 ></a>
@@ -134,8 +134,8 @@
         <h1 class="w-50 text-center border-bottom m-auto mb-2 mb-md-5">
           My Portfolio
         </h1>
-        <div class="row mt-4 mb-4">
-          <div class="col-12 col-md-6">
+        <div class="row align-items-center mt-4 mb-4">
+          <div class="col-12 col-md-12 col-lg-6">
             <div
               id="carouselExampleControls"
               class="carousel slide"
@@ -183,7 +183,7 @@
               </button>
             </div>
           </div>
-          <div class="col-12 col-md-6 mt-4">
+          <div class="col-12 col-md-12 col-lg-6 mt-4">
             <h3 class="d-inline me-2">Road Riders</h3>
             <a
               class="site-link"
@@ -226,33 +226,55 @@
           </div>
         </div>
         <hr />
-        <div class="row mt-4 mb-4">
-          <div class="col-12 col-md-6">
+        <div class="row align-items-center mt-4 mb-4">
+          <div class="col-12 col-md-12 col-lg-6">
             <div
-              id="carouselExampleControls"
+              id="carouselExampleIndicators"
               class="carousel slide"
               data-bs-ride="carousel"
             >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
                     src="images/img3.jpeg"
-                    class="d-block w-100 img-fluid"
-                    alt="img1"
+                    class="d-block w-100"
+                    alt="img3"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="images/img4.jpeg"
-                    class="d-block w-100 img-fluid"
-                    alt="img2"
+                    class="d-block w-100"
+                    alt="img4"
                   />
                 </div>
               </div>
               <button
                 class="carousel-control-prev"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev"
               >
                 <span
@@ -264,7 +286,7 @@
               <button
                 class="carousel-control-next"
                 type="button"
-                data-bs-target="#carouselExampleControls"
+                data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="next"
               >
                 <span
@@ -275,7 +297,7 @@
               </button>
             </div>
           </div>
-          <div class="col-12 col-md-6 mt-4">
+          <div class="col-12 col-md-12 col-lg-6 mt-4">
             <h3 class="d-inline me-2">Doctor Portal</h3>
             <a
               class="site-link"
@@ -315,7 +337,7 @@
           My Skills And Education
         </h1>
         <div class="row align-items-center skills">
-          <div class="col-12 col-md-7 mt-4">
+          <div class="col-12 col-md-12 col-lg-7 mt-4">
             <h3>Technology Skills:</h3>
             <h4>Expertise:</h4>
             <span>HtmlL</span>
@@ -344,13 +366,14 @@
             <span>Git</span>
             <span>GitHub</span>
           </div>
-          <div class="col-12 col-md-5 mt-4 text-center">
+          <div class="col-12 col-md-12 col-lg-5 mt-4 text-center">
             <h3>Education Background:</h3>
             <h5>
               Diploma In Mechatronics Engineering (Rajshahi Polytechnic
               Institute)
             </h5>
             <h6>Session: 2020-2021</h6>
+            <hr />
           </div>
         </div>
       </section>
@@ -358,7 +381,7 @@
         <div class="col col-md-5 d-flex justify-content-center mt-4">
           <img class="profile-img" src="images/profile.png" alt="" />
         </div>
-        <div class="col col-md-7">
+        <div class="col col-md-7 mt-4">
           <h1>About Me</h1>
           <p>
             Hi there, this is Mahfuz. Always love to do programming and try to
